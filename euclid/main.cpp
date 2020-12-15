@@ -12,7 +12,13 @@ int euclid(int fnum, int snum){
 }
 
 int main(){
-  int result = euclid(1112,695);
+  int fnum;
+  int snum;
+
+  cin >> fnum;
+  cin >> snum;
+
+  int result = euclid(fnum,snum);
 
   cout << result << endl;
 }
